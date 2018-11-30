@@ -18,15 +18,15 @@ public class Main {
         do {
             System.out.println("\n\t\tFESTIVAL MENU \n");
             System.out.println("\n\t1.Festibaleko informazio dena erakutsi\n\tMostrar toda la info del festival");
-            System.out.println("\n\t2.Aktuazio berri bat gehitu\n\tA�adir actuacion al festival");
+            System.out.println("\n\t2.Aktuazio berri bat gehitu\n\tAñadir actuacion al festival");
             System.out.println("\n\t3.Festibalaren iraupena atera kontuan izanda taldeen artean 15 minutuko atsedenaldia dagoela"
                     + "\n\tTeniendo en cuenta que entre grupo y grupo hay un intervalo de 15mins, mostrar la duracion del festival hay un intervalo de 15mins, mostrar la duracion del festival");
             System.out.println("\n\t4.Erabilzaileari testu kate bat eskatu eta izenean letra hoiek dituzten aktuazioak atera ( maiuskulak / minuskulak kontuan izan Gabe)"
                     + "\n\tPedir una cadena de texto por pantalla y mostrar las actuaciones que tengan esa cadena en el nombre, indistintamente de que el usuario haya metido mayusculas o minusculas");
             System.out.println("\n\t5.100 minuto baino motzagoak diren aktuazio denei 10 min gehitu, eta esan zenbat izan diren"
-                    + "\n\tPara todas las duraciones menores de 100 mins, sumarles 10misn a cada una y mostrar cu�ntos son");
+                    + "\n\tPara todas las duraciones menores de 100 mins, sumarles 10misn a cada una y mostrar cuantos son");
             System.out.println("\n\t6.Atera iraupen gehien duen aktuazioaren datuak. (bat baino gehiago badira atera denak ) "
-                    + "\n\t Hallar los datos de la actuaci�n con m�s larga. Si hay varias iguales, sacar todas");
+                    + "\n\t Hallar los datos de la actuacion con mas larga. Si hay varias iguales, sacar todas");
             System.out.println("\n\t7.Irten / Salir");
 
             System.out.print("\n\n\tEnter an option (1-7) 8.End : ");

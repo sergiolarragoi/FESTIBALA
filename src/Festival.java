@@ -109,17 +109,19 @@ public class Festival {
 
     public void buscar() {
         Scanner reader = new Scanner(System.in);
-        int pos;
-        System.out.println("\tGroup names that contain: ");
+
+        int indexPosition;
+
+        System.out.print("\n\tGroup names that contain: ");
         String groupName = reader.nextLine();
-        System.out.println(groupName);
+//        System.out.println(groupName);
+
         for (int i = 0; i < this.performances.size(); i++) {
-            if (this.performances.get(i).getGroupName().equalsIgnoreCase(groupName)) {
-                pos = i;
-//                System.out.println(pos);
-                this.performances.get(pos).mostrarDatos();
+            if (this.performances.get(i).getGroupName().contains(groupName)) {
+                indexPosition = i;
+//                System.out.println(indexPosition);
+                this.performances.get(indexPosition).mostrarDatos();
             }
         }
     }
-
 }

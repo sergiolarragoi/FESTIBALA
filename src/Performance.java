@@ -47,7 +47,9 @@ public class Performance {
     }
 
     public void mostrarDatos() {
-        System.out.println(this.groupName);
+        System.out.println("\t\t" + this.groupName + "\t" + this.members + "\t" + this.duration);
+//        System.out.println(this.getGroupName() + "\t" + this.getMembers() + "\t" + this.getDuration());
+
     }
 
 }
