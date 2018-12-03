@@ -124,4 +124,19 @@ public class Festival {
             }
         }
     }
+
+    public void mostrarActuacionLargo() {
+
+        int pos;
+
+        for (int i = 0; i < this.performances.size(); i++) {
+            if (this.performances.get(i).getGroupName().contains(groupName)) {
+                 pos = i;
+                 this.performances.get(pos).mostrarMax();
+
+            }
+
+        }
+
+    }
 }

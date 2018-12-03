@@ -67,7 +67,7 @@ public class Main {
                 case 6:
                     //Iraupen gehien dituen aktuazioaren datuak. (bat baino gehiago badira atera denak )
                     // Hallar los datos de la actuaci�n m�s larga. Si hay varias iguales, sacar todas
-
+                    festival.mostrarActuacionLargo();
                     break;
                 case 7:
                     System.out.println("Coming out...");
