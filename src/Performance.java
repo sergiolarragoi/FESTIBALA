@@ -52,9 +52,9 @@ public class Performance {
 
     }
 
-    public void mostrarMax() {
-        System.out.println("Máximo: " + performances.stream().mapToDouble(i -> i).max().getAsDouble());
-        System.out.println("Máximo: " + performances.stream().mapToDouble(i -> i).min().getAsDouble());
-    }
+//    public void mostrarMax() {
+//        System.out.println("Máximo: " + performances.stream().mapToDouble(i -> i).max().getAsDouble());
+//        System.out.println("Máximo: " + performances.stream().mapToDouble(i -> i).min().getAsDouble());
+//    }
 
 }

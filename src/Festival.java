@@ -1,6 +1,7 @@
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class Festival {
@@ -130,12 +131,8 @@ public class Festival {
         int pos;
 
         for (int i = 0; i < this.performances.size(); i++) {
-            if (this.performances.get(i).getGroupName().contains(groupName)) {
-                 pos = i;
-                 this.performances.get(pos).mostrarMax();
-
-            }
-
+           
+            
         }
 
     }
