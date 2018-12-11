@@ -136,18 +136,15 @@ public class Festival {
     }
 
     public void duracion() {
-//        Performance arrayPerformances[] = new Performance[performances.size()];
-//        performances.toArray(arrayPerformances);
-//        for(int i=0;i<arrayPerformances.length;i++){
-//            System.out.println(arrayPerformances[i]);
-//        }
-        int pos;
+
+        int suma = 0;
         for (int i = 0; i < this.performances.size(); i++) {
-            if (this.performances.get(i).getGroupName()) {
-                pos = i;
-                this.performances.get(pos).printPerformanceData();
-            }
+            int intervalo = 15;
+
+            suma = suma + this.performances.get(i).getDuration() + intervalo;
+
         }
+        System.out.println("The festival duration (intermediates incluided) is: " + (suma - 15));
 
     }
 }
