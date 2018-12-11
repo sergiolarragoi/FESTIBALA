@@ -51,7 +51,7 @@ public class Main {
                 case 3:
                     //Festibalaren iraupena atera kontuan izanda taldeen artean 15 minutuko atsedenaldia dagoela
                     // Teniendo en cuenta que entre grupo y grupo hay un intervalo de 15mins, mostrar la duracion del festival hay un intervalo de 15mins, mostrar la duracion del festival
-
+                    festival.duracion();
                     break;
                 case 4:
                     //Erabilzaileari testu kate bat eskatu eta izenean letra hoiek dituzten aktuazioak atera ( maiuskulak / minuskulak kontuan izan Gabe

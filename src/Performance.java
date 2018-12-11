@@ -46,15 +46,4 @@ public class Performance {
                 + " " + "\t" + this.getMembers() + "\t" + this.getDuration());
     }
 
-    public void mostrarDatos() {
-        System.out.println("\t\t" + this.groupName + "\t" + this.members + "\t" + this.duration);
-//        System.out.println(this.getGroupName() + "\t" + this.getMembers() + "\t" + this.getDuration());
-
-    }
-
-//    public void mostrarMax() {
-//        System.out.println("Máximo: " + performances.stream().mapToDouble(i -> i).max().getAsDouble());
-//        System.out.println("Máximo: " + performances.stream().mapToDouble(i -> i).min().getAsDouble());
-//    }
-
 }

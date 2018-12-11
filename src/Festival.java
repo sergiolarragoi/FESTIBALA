@@ -1,7 +1,6 @@
 
 import java.io.File;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Scanner;
 
 public class Festival {
@@ -112,18 +111,18 @@ public class Festival {
         Scanner reader = new Scanner(System.in);
 
         int indexPosition;
-
+//
         System.out.print("\n\tGroup names that contain: ");
         String groupName = reader.nextLine();
 //        System.out.println(groupName);
-
         for (int i = 0; i < this.performances.size(); i++) {
             if (this.performances.get(i).getGroupName().contains(groupName)) {
                 indexPosition = i;
 //                System.out.println(indexPosition);
-                this.performances.get(indexPosition).mostrarDatos();
+                this.performances.get(indexPosition).printPerformanceData();
             }
         }
+
     }
 
     public void mostrarActuacionLargo() {
@@ -131,8 +130,23 @@ public class Festival {
         int pos;
 
         for (int i = 0; i < this.performances.size(); i++) {
-           
-            
+
+        }
+
+    }
+
+    public void duracion() {
+//        Performance arrayPerformances[] = new Performance[performances.size()];
+//        performances.toArray(arrayPerformances);
+//        for(int i=0;i<arrayPerformances.length;i++){
+//            System.out.println(arrayPerformances[i]);
+//        }
+        int pos;
+        for (int i = 0; i < this.performances.size(); i++) {
+            if (this.performances.get(i).getGroupName()) {
+                pos = i;
+                this.performances.get(pos).printPerformanceData();
+            }
         }
 
     }
