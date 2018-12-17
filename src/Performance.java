@@ -46,4 +46,11 @@ public class Performance {
                 + " " + "\t" + this.getMembers() + "\t" + this.getDuration());
     }
 
+    public void suma10() {
+
+        this.duration = this.duration + 10;
+        
+        
+    }
+
 }

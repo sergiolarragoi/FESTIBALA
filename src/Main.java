@@ -61,7 +61,7 @@ public class Main {
                 case 5:
                     // 100 minuto baino motzagoak diren aktuazio denei 10 min gehitu, eta esan zenbat izan diren
                     // Para todas las duraciones menores de 100 mins, sumarles 10misn a cada una y mostrar cu�ntos son
-
+                    festival.menores100();
                     break;
 
                 case 6:

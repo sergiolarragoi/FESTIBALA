@@ -116,7 +116,7 @@ public class Festival {
         String groupName = reader.nextLine();
 //        System.out.println(groupName);
         for (int i = 0; i < this.performances.size(); i++) {
-            if (this.performances.get(i).getGroupName().contains(groupName)) {
+            if (this.performances.get(i).getGroupName().toUpperCase().contains(groupName.toUpperCase())) {
                 indexPosition = i;
 //                System.out.println(indexPosition);
                 this.performances.get(indexPosition).printPerformanceData();
@@ -146,5 +146,18 @@ public class Festival {
         }
         System.out.println("The festival duration (intermediates incluided) is: " + (suma - 15));
 
+    }
+
+    public void menores100() {
+
+        int pos;
+
+        for (int i = 0; i < this.performances.size(); i++) {
+            if (this.performances.get(i).getDuration() < 100) {
+                pos = i;
+                this.performances.get(pos).suma10();
+
+            }
+        }
     }
 }
